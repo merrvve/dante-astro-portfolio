@@ -1,64 +1,49 @@
 ---
-title: 'Custom Background Removal Software'
-description: RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience.
-publishDate: 'Jan 12 2024'
+title: 'OFRO - Online Financial Feasibility Report Generator Tool'
+description: Ofro is an online financial feasibility report generation tool that allows users to create feasibility reports on their investments with an easy-to-use, interactive tool. Originally used by consultants, it was an Excel program with 21 different tables calculated based on input data. This project automated and accelerated the process.
+publishDate: 'Apr 12 2024'
 isFeatured: true
 seo:
   image:
-    src: '/project-3.jpg'
+    src: '/ofro.gif'
 ---
 
-![Project preview](/project-3.jpg)
+![Project preview](/ofro.gif)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
 **Project Overview:**
-RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience. By combining machine learning with culinary expertise, RoboChef empowers users to explore a world of flavors, improve their cooking skills, and enjoy personalized recipe recommendations.
 
-## Objectives
+Ofro is an online financial feasibility report generation tool that allows users to create feasibility reports on their investments with an easy-to-use, interactive tool. Originally used by consultants, it was an Excel program with 21 different tables calculated based on input data. This project automated and accelerated the process.
 
-1. Develop a user-friendly mobile app that utilizes AI to provide personalized recipe suggestions based on user preferences, dietary restrictions, and available ingredients.
-2. Create an interactive cooking guide that assists users with step-by-step instructions, cooking tips, and real-time assistance.
-3. Implement a smart learning system that refines recommendations over time, adapting to users' taste preferences and dietary changes.
+## Goals
+
+1. Develop a user-friendly web application that allows users to easily create financial investment funds
 
 ## Features
 
-1. **AI-Powered Recipe Recommendations:**
+1. **Interactive Form with Real-Time Calculations:**
 
-- RoboChef analyzes users' taste preferences, dietary restrictions, and ingredient availability to suggest personalized recipes.
-- Machine learning algorithms continuously learn from user interactions, refining recommendations for an increasingly tailored experience.
+- Ofro includes a 10-step form with flexible fields and automatically calculated values ​​with custom formulas.
 
-2. **Ingredient Scanner and Inventory Management:**
+2. **Stylized Report with Figures in Different File Formats:**
 
-- Users can scan their pantry and refrigerator using the app's built-in ingredient scanner.
-- RoboChef provides recipe suggestions based on available ingredients and helps users manage their inventory by suggesting recipes that utilize soon-to-expire items.
+- The created report is given in Word, Excel and PDF formats and 5 numbers are included to make it more visually appealing.
 
-3. **Step-by-Step Cooking Guide:**
+3. **User Panel:**
 
-- Each recipe includes a detailed step-by-step cooking guide with interactive multimedia elements.
-- Users can watch video tutorials, view images, and receive real-time tips from RoboChef as they progress through each cooking stage.
+- Users can manage and edit generated reports.
 
-4. **Nutritional Insights and Meal Planning:**
+4. **Blog:**
 
-- RoboChef provides nutritional information for each recipe, helping users make informed decisions about their meals.
-- The app offers meal planning features, allowing users to create weekly menus based on dietary goals and preferences.
+- It includes a blog area where the site content can be controlled from the admin panel.
 
-5. **Voice-Activated Assistance:**
+5. **Admin Panel:**
 
-- Users can interact with RoboChef using voice commands for a hands-free cooking experience.
-- The AI assistant responds to queries, provides cooking tips, and adapts recipes based on user preferences.
-
+- Admin Panel allows administrators to change the content of specific fields and view reports on users' activities.
 ## Technology Stack
 
-- Frontend: Flutter for a seamless cross-platform mobile app experience.
-- Backend: Django for handling server-side logic and API integration.
-- Database: PostgreSQL for efficient data storage and retrieval.
-- AI Integration: TensorFlow for machine learning models powering recipe recommendations.
+- Frontend: Angular v16, Bootstrap v5
+- Backend: Flask
+- Database: MongoDB, Firebase
+- Others: Firebase Auth, Gunicorn, Nginx
 
-> Ethan Donovan possesses a rare blend of technical expertise and creative flair. They skillfully transformed our vague ideas into a visually stunning and highly functional website. The end result exceeded our expectations, and we continue to receive compliments on the design and user experience.
-
-## Outcome
-
-RoboChef Recipe Assistant has revolutionized the way users approach cooking, making it an enjoyable and educational experience. The AI-powered features not only simplify the cooking process but also contribute to users' culinary growth, creating a personalized and evolving cooking journey.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).

@@ -1,6 +1,6 @@
 ---
 title: 'Ihaleapp - Tender Application'
-description: A web application where construction sector tenders can be explored online with an interactive table and bidders can bid for the relevant tenders.
+description: Ihaleapp is an online platform where construction industry employers and bidders carry out the processes of creating tenders, submitting bids and evaluating the bids with a user-friendly interface.
 publishDate: 'May 01 2024'
 isFeatured: true
 seo:

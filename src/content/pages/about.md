@@ -1,43 +1,47 @@
 ---
-title: About
+title: About Me
 seo:
   title: About Me
-  description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
+  description: Learn more about me as a coder.
   image:
     src: '/about.jpeg'
     alt: A person sitting at a desk in front of a computer
 ---
 
-![Alt text for image](/about.jpeg)
+<!-- ![Alt text for image](/about.jpeg) -->
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
-## Ethan Donovan - Web Developer based in Estonia
+## Introduction
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+I am a self-taught developer who started in software by making static web pages during my middle school and high school years. I was playing with _C++_ in those years and managed to develop a simple software and a simple snake game that scanned University programs and matched them with some filters. My interest in computers has continued since then. I have been a _Linux (Ubuntu)_ user for many years. I studied medicine at university and worked as a family physician for a while. I then started working in the field of genetics and took classes in _Python, data analysis, and basic machine learning,_ as well as courses in _genomic data analysis._ I also have [an article](https://www.biorxiv.org/content/10.1101/2022.09.14.507921v1) on _RNA-seq data analysis_ with the _R language_. As a freelancer, I occasionally did _data analysis and web scraping with Python_. In the meantime, I continued to create simple websites for my friends and family when necessary.
 
-## Skills and Expertise
+I started developing web applications with _.NET Core, Angular Framework, Django and Flask_ 2 years ago and I work as a full stack developer on many projects, creating and maintaining applications with a moderate number of users.
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+## Skills and Tech Stack
 
-## Innovation and Problem-Solving
+- **Languages:** Python, Typescript
+- **Frontend:** Angular (v15-17), TailwindCSS, Bootstrap, PrimeNG, Flowbite, DaisyUI
+- **Backend:** Django, Django-Ninja, DRF, Flask
+- **DB:** SQLite, MongoDB
+- **Others:** Firebase, Git, Nginx, Gunicorn, CentOS, OpenAI API, Langchain, Pandas, Numpy
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+### Angular Framework
 
-## Global Perspective, Local Impact
+I mostly try to improve myself on Angular Framework. The features I have been using as follows:
+- Services, Dependency Injection
+- RxJS, Observables, Promises
+- Routing, Lazy Loading
+- Standalone components
+- Custom Attribute Directives
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+I'am trying to improve myself on subjects like:
+- Best Practices
+- Testing
+- Linting
+- Dockerizing Angular apps
+- SSR and SSG
 
-## Continuous Learning
+### Future Direction as a Frontend Developer
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
+I want to specialize in front-end development by improving my code style with best practices and SOLID principles. I am also ready to use _Next.js_ and _Astro.js_ frameworks in my next projects.
 
-## Collaboration and Communication
-
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
-
-## Get in Touch
-
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
-
-_Let's build something amazing together!_

@@ -72,10 +72,7 @@ const siteConfig: SiteConfig = {
             text: 'Contact',
             href: '/contact'
         },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
+        
         {
             text: 'Download theme',
             href: 'https://github.com/JustGoodUI/dante-astro-theme'
@@ -83,36 +80,31 @@ const siteConfig: SiteConfig = {
     ],
     socialLinks: [
         {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
+            text: 'Github',
+            href: 'https://github.com/merrvve'
         },
         {
             text: 'Instagram',
-            href: 'https://instagram.com/'
+            href: 'https://instagram.com/merrvvesen'
         },
         {
             text: 'X/Twitter',
-            href: 'https://twitter.com/'
+            href: 'https://twitter.com/kuantogen'
         }
     ],
     hero: {
         title: 'Welcome',
-        text: "I'm **Merve Keskin**, freelance full stack web developer who wants to progress as an Angular Developer. <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        text: "Since childhood, I've been captivated by coding, and for the past two years, I've been freelancing as a full stack web developer. I've worked on diverse projects, improving my skills in various programming languages and frameworks. Right now, I'm working with <strong>Angular and Django.</strong> Aside from web development, I also have experience in data analysis and web scraping.<br /> Check out <a href='/projects'> my projects </a> to see what I've been up to,<br /> <a href='/about'>Learn more about me, </a><br />Download <a href='devcv-2024.pdf'> my resume</a> or <br /> Visit <a href='https://github.com/merrvve'>my Github.</a>  <br />Feel free to contact me by email: <a href='mailto:mervsen@gmail.com'>mervsen@gmail.com</a></a>",
         image: {
             src: '/hero.jpeg',
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
             {
-                text: 'Get in Touch',
+                text: 'Contact Me',
                 href: '/contact'
             }
         ]
-    },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
     },
     postsPerPage: 8,
     projectsPerPage: 8

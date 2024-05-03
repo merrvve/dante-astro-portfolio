@@ -1,10 +1,10 @@
 ---
 title: Presentai.net - Online Tools for Biomedical Researchers
-description: This web application encourages users to embark on thrilling adventures, complete challenges, and achieve fitness goals in an engaging virtual environment.
-publishDate: 'Apr 28 2024'
+description: Presentai.net is a web platform that provides biomedical researchers with practical tools to help them work with documents and research articles, such as the 'Text to Presentation Tool', which converts given text into slides in pptx format and, if selected, enables text summary with ChatGPT; and the 'Pubmed Bulk Abstract Downloader', which allows researchers to download the top 100 abstracts from Pubmed along with the relevant query, creating a word cloud based on article abstracts.
+publishDate: 'May 02 2024'
 seo:
   image:
-    src: '/project-6.jpg'
+    src: '/presentai.gif'
 ---
 
 ![Project preview](/presentai.gif)
