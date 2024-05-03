@@ -1,61 +1,54 @@
 ---
-title: FitQuest - AR Fitness Adventure Game
+title: Presentai.net - Online Tools for Biomedical Researchers
 description: This web application encourages users to embark on thrilling adventures, complete challenges, and achieve fitness goals in an engaging virtual environment.
-publishDate: 'Dec 28 2023'
+publishDate: 'Apr 28 2024'
 seo:
   image:
     src: '/project-6.jpg'
 ---
 
-![Project preview](/project-6.jpg)
+![Project preview](/presentai.gif)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
 **Project Overview:**
-FitQuest is an augmented reality (AR) fitness adventure game that revolutionizes traditional workout routines by combining physical exercise with immersive gameplay. This web application encourages users to embark on thrilling adventures, complete challenges, and achieve fitness goals in an engaging virtual environment.
 
-## Objectives
+[Presentai.net](https://presentai.net) is a web platform that provides biomedical researchers with practical tools to help them work with documents and research articles, such as the 'Text to Presentation Tool', which converts given text into slides in pptx format and, if selected, enables text summary with ChatGPT; and the 'Pubmed Bulk Abstract Downloader', which allows researchers to download the top 100 abstracts from Pubmed along with the relevant query, creating a word cloud based on article abstracts.
 
-1. Develop a fitness app that leverages augmented reality to make workouts more enjoyable and interactive.
-2. Integrate real-world locations and landmarks into the game, turning everyday environments into exciting adventure settings.
-3. Motivate users to stay active and maintain a consistent fitness routine by blending physical activity with a captivating storyline.
+## Goals
+
+1. Combining my experiences as both a developer and a researcher to develop simple and useful tools for biomedical researchers
+2. Enhance existing workflows by integrating OpenAI API or other LLMs
+3. Creating an online platform that can scale with more tools and contributions from relevant people.
 
 ## Features
 
-1. **Augmented Reality Workouts:**
+1. **Pdf Text and Image Extraction Tool:**
 
-- FitQuest utilizes AR technology to overlay game elements onto the real-world environment, creating an immersive and dynamic workout experience.
-- Users engage in exercises that align with the game's storyline while interacting with virtual elements superimposed on their surroundings.
+- This tool allows users to quickly extract the contents of pdf files on a single page and provides the resulting text and images without connecting to a server. So users can upload pdfs without privacy issues.
+- It was created with the pdf.js library. 
 
-2. **Interactive Storyline and Challenges:**
+2. **Text to Presentation Converter Tool:**
 
-- The app features an adventure-driven storyline where users embark on quests and missions to complete fitness challenges.
-- Challenges include cardio exercises, strength training, and flexibility workouts, seamlessly integrated into the game's narrative.
+- This tool places gven text on slides, splitting to new slides with provided splitters. It aims to prepare a workspace before start working on a presentation. 
+- Users can also select option for Chat-GPT to organise and summarise the text into a comprehensive presentation. 
+- This tool was created with openai and python-pptx library
 
-3. **Real-World Landmarks Integration:**
+3. **Pubmed Batch Abstract Downloading Tool:**
 
-- FitQuest incorporates real-world landmarks and locations as key elements in the game, turning parks, streets, and other environments into virtual fitness arenas.
-- Users explore these locations while completing fitness challenges and unlocking new levels.
-
-4. **Multiplayer Mode and Team Challenges:**
-
-- Users can connect with friends or join teams to participate in multiplayer challenges.
-- Team-based missions encourage collaboration and friendly competition, enhancing the social aspect of fitness.
-
-5. **Fitness Tracking and Progress Monitoring:**
-
-- The app includes a comprehensive fitness tracking system that monitors users' progress, calories burned, and achievements.
-- Users can set personalized fitness goals and track their improvement over time.
+- This tool searches PubMed for the given query.
+- Downloads the latest 100 published article abstracts from the results.
+- Provides the results in a structured Excel file.
+- Creates a word cloud based on the abstracts' text content.
 
 ## Technology Stack
 
-- Frontend: Unity for AR game development.
-- Backend: Node.js for handling server-side logic and real-time data synchronization.
-- Database: MongoDB for storing user profiles, fitness data, and game progress.
-- AR Integration: ARCore (Android) and ARKit (iOS) for augmented reality features.
+- Frontend: Angular v16. TailwindCSS
+- Backend: Flask.
+- Database: MongoDB.
+- API Integration: OpenAI API.
+- Server: VPS with Centos 7
 
 ## Outcome
 
-FitQuest has transformed the fitness landscape by merging physical activity with immersive gaming experiences. Users not only enjoy staying active but also find motivation in the storyline and challenges, creating a unique and entertaining approach to maintaining a healthy lifestyle.
+[Presentai.net](https://presentai.net) offers simple and useful online tools for biomedical researchers.
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).

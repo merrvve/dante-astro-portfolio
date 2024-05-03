@@ -1,62 +1,61 @@
 ---
-title: 'PixelPerfect Art Gallery'
-description: PixelPerfect Art Gallery is an innovative online platform that transcends traditional art exhibition spaces.
-publishDate: 'Oct 25 2023'
+title: 'Ihaleapp - Tender Application'
+description: A web application where construction sector tenders can be explored online with an interactive table and bidders can bid for the relevant tenders.
+publishDate: 'May 01 2024'
 isFeatured: true
 seo:
   image:
     src: '/project-5.jpg'
 ---
 
-![Project preview](/project-5.jpg)
+![Project preview](/ihaleapp.gif)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
 **Project Overview:**
-PixelPerfect Art Gallery is an innovative online platform that transcends traditional art exhibition spaces. This web application is dedicated to showcasing and celebrating pixel art in the form of Non-Fungible Tokens (NFTs), providing artists with a digital canvas to display their unique creations while ensuring secure ownership through blockchain technology.
+
+Ihaleapp is an online platform where construction industry employers and bidders carry out the processes of creating tenders, submitting bids and evaluating the bids with a user-friendly interface.
 
 ## Objectives
 
-1. Create an immersive online gallery experience specifically tailored for pixel art enthusiasts and NFT collectors.
-2. Utilize blockchain technology to authenticate and secure ownership of digital artworks, ensuring a transparent and tamper-proof art marketplace.
-3. Foster a community of digital artists and art collectors, providing a platform for collaboration, appreciation, and exchange.
+1. Accelerating the processes of creating tenders and receiving offers in the construction industry
+2. Management of the information needed in the tender creation process with an interactive table customized according to the needs of the sector
+3. Easily manage created tender drafts
 
 ## Features
 
-1. **NFT Art Exhibition:**
+1. **Employer Panel, Creating Tenders**
 
-- PixelPerfect features a curated exhibition of pixel art NFTs, showcasing a diverse range of styles, themes, and techniques.
-- Users can explore and appreciate the intricate details of each digital artwork in a visually stunning online gallery.
+- Employers can create a new tender via the panel and mark the bidders who will bid for the tender.
+- Can view past tenders and tender drafts
 
-2. **Blockchain Authentication:**
+2. **Bidder Panel**
 
-- Each pixel art piece is tokenized as an NFT on a blockchain, ensuring authenticity, provenance, and secure ownership.
-- Users can view the blockchain records to verify the origin and history of the digital artworks.
+- Bidders access the information of the tenders they can bid on via the panel.
+- They quickly complete the bidding process by filling in the necessary fields on the draft table created by the tenderer.
 
-3. **Virtual Art Auctions:**
+3. **Create Tenders**
 
-- PixelPerfect hosts virtual art auctions, allowing users to bid on and acquire exclusive pixel art NFTs.
-- The auction platform provides a dynamic and engaging environment for art enthusiasts and collectors.
+- Employers can create a tender by filling out a 4-step interactive form via the panel.
+- In addition to tender information and documents, they can create discoveries by changing rows and columns in the table in the customized nested tree data structure.
 
-4. **Community Collaboration Spaces:**
+4. **Manage Tenders**
 
-- Dedicated community spaces allow artists to connect, collaborate, and showcase their creative process.
-- Users can discuss techniques, share insights, and even collaborate on pixel art projects within the PixelPerfect community.
+- Features such as viewing and editing created tenders, adding bidders, and making changes to tender discovery are available.
 
-5. **Interactive Pixel Art Creation Workshop:**
+5. **Manage Bids**
 
-- PixelPerfect provides a virtual workshop where users can create their own pixel art and potentially tokenize their creations as NFTs.
-- Artists can share their works with the community or submit them for consideration in future exhibitions.
+- Viewing and editing created offers are available.
+
+6. **Role Based Authentication and Authorization**
+
+- User logins are managed according to admin, employer and bidder roles and directed to the relevant areas.
 
 ## Technology Stack
 
-- Frontend: Angular for a dynamic and responsive user interface.
-- Backend: Node.js for handling server-side logic and API integration.
-- Database: Ethereum blockchain for storing NFT ownership and transaction details.
-- Smart Contracts: Solidity for developing blockchain smart contracts.
+- Frontend: Angular v17., PrimeNG and PrimeFlex
+- Backend: Django with Django-Ninja
+- Database: SQLite
 
 ## Outcome
 
-PixelPerfect Art Gallery has successfully created a digital haven for pixel art enthusiasts, providing a secure and engaging platform for artists and collectors alike. The integration of blockchain technology ensures transparency and authenticity in the world of digital art, fostering a vibrant community that appreciates the uniqueness and creativity of pixel art NFTs.
-
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+Ihaleapp's first module is currently under development and 90% of the features have been created.

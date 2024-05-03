@@ -1,7 +1,7 @@
 ---
-title: 'NeuralPlaylist - AI Generated Music Recommendations'
+title: 'Working Schedule Generator'
 description: Leveraging advanced algorithms and machine learning, NeuralPlaylist crafts personalized music recommendations based on users' preferences, moods, and even biometric data.
-publishDate: 'Oct 19 2023'
+publishDate: 'Mar 19 2024'
 seo:
   image:
     src: '/project-4.jpg'

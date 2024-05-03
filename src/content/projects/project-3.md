@@ -1,7 +1,7 @@
 ---
-title: 'RoboChef - AI Powered Cooking Guide'
+title: 'Custom Background Removal Software'
 description: RoboChef Recipe Assistant is a groundbreaking mobile application that leverages artificial intelligence to redefine the cooking experience.
-publishDate: 'Oct 12 2023'
+publishDate: 'Jan 12 2024'
 isFeatured: true
 seo:
   image:
