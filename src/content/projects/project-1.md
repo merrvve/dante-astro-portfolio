@@ -10,24 +10,19 @@ seo:
 
 ![Project preview](/marsev.png)
 
-
 **Project Overview:**
 [Marsev](http://marsev.org) is a website of an educational organisation for helathcare professionals. It has basic content management for new events, new book sales and other content. Users can enroll in courses through the website's online registration system.
 
 ## Features
 
-- Authentication, Authorization
-- Role-based routes (admin, user)
-- Admin Panel
-- Basic Content Management 
+- Basic Content Management
 - Online Enrollment into active workshops
+- SEO Compatibility
+- 98% PageSpeed Score
 
 ## Technology Stack
 
-- NET Core MVC
-- Entity Core Framework
-- MsSQL
-- Bootstrap v5 
-- HTML
-- Git
-
+- Astro.js
+- Tailwind CSS
+- Google Sheets
+- Decap CMS

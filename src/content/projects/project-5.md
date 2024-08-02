@@ -10,10 +10,9 @@ seo:
 
 ![Project preview](/ihaleapp.gif)
 
-
 **Project Overview:**
 
-Ihaleapp is an online platform where construction industry employers and bidders carry out the processes of creating tenders, submitting bids and evaluating the bids with a user-friendly interface.
+[Ihaleapp](https://ihaleapp-2024.web.app) is an online platform where construction industry employers and bidders carry out the processes of creating tenders, submitting bids and evaluating the bids with a user-friendly interface.
 
 ## Objectives
 
@@ -42,9 +41,9 @@ Ihaleapp is an online platform where construction industry employers and bidders
 
 - Features such as viewing and editing created tenders, adding bidders, and making changes to tender discovery are available.
 
-5. **Manage Bids**
+5. **Compare Bids**
 
-- Viewing and editing created offers are available.
+- Comparing selected bids in an interactive data table, where users can mark values using custom filters and add or delete columns.
 
 6. **Role Based Authentication and Authorization**
 
@@ -52,9 +51,11 @@ Ihaleapp is an online platform where construction industry employers and bidders
 
 ## Technology Stack
 
-- Frontend: Angular v17., PrimeNG and PrimeFlex
-- Backend: Django with Django-Ninja
-- Database: SQLite
+- Angular v17.,
+- PrimeNG
+- PrimeFlex
+- Firebase Authentication
+- Firestore
 
 ## Outcome
 
