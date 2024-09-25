@@ -1,32 +1,23 @@
 ---
-title: 'Working Schedule Generator'
-description: It is a personal side project developed due to the need for an automatic tool that allows the creation of task lists, taking into account the days when not every doctor is available.
-publishDate: 'Mar 19 2024'
-seo:
-  image:
-    src: '/doktor-nobet.gif'
+title: 'Pdf Image Extractor'
+description: A command line tool that reads PDF files in binary format, searches for embedded JPEG and PNG images by identifying their unique byte signatures, and saves each detected image into a separate file in a designated output directory. The output directory is named after the input PDF file and is located in the 'results' folder.
+publishDate: 'Jan 02 2024'
 ---
 
-![Project preview](/doktor-nobet.gif)
-
-# Application for preparing duty lists for doctors
-
 **Project Overview:**
-It is a personal side project developed due to the need for an automatic tool that allows the creation of task lists, taking into account the days when not every doctor is available.
 
-## Features:
-- Prepares a list for 24-hour shifts for a month
-- Can assign more than one doctor per day
-- Can assign more than one type of doctor per day
-- Considers weekends and other holidays and calculates them separately
-- Considers the days when the doctors are not available
-- Selects a doctor randomly if no one is available for a particular day
+I have created a command line tool that extracts and saves JPEG and PNG images embedded within PDF files.
 
-Features to be Added:
-- Improving the duty list visually and exporting it to Excel
-- Bug fix for multiple types of doctors list 
+The script reads PDF files in binary format, searches for embedded JPEG and PNG images
+by identifying their unique byte signatures, and saves each detected image into a separate
+file in a designated output directory. The output directory is named after the input PDF file
+and is located in the 'results' folder.
 
-## Tech Stack
+## Usage:
 
-- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
-- PrimeNG and PrimeFlex were used for UI development
+    python3 bin/main.py input_file.pdf
+    python3 bin/main.py path/to/input/files
+
+## Arguments:
+
+    input_file.pdf (or) path/to/input/files : Path to the PDF files or a single pdf file from which images will be extracted.

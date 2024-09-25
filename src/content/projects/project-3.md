@@ -10,10 +10,9 @@ seo:
 
 ![Project preview](/ofro.gif)
 
-
 **Project Overview:**
 
-Ofro is an online financial feasibility report generation tool that allows users to create feasibility reports on their investments with an easy-to-use, interactive tool. Originally used by consultants, it was an Excel program with 21 different tables calculated based on input data. This project automated and accelerated the process.
+[Ofro](https://uygulanabilirlik.com) is SaaS platform that that allows users to create feasibility reports on their investments with an easy-to-use, interactive tool. Originally used by consultants, it was an Excel program with 21 different tables calculated based on input data. This project automated and accelerated the process. I have successfully built MVP frontend, backend, API integrations and deployment to the Linux server.
 
 ## Goals
 
@@ -40,10 +39,10 @@ Ofro is an online financial feasibility report generation tool that allows users
 5. **Admin Panel:**
 
 - Admin Panel allows administrators to change the content of specific fields and view reports on users' activities.
+
 ## Technology Stack
 
 - Frontend: Angular v16, Bootstrap v5
 - Backend: Flask
 - Database: MongoDB, Firebase
-- Others: Firebase Auth, Gunicorn, Nginx
-
+- Others: Firebase Auth, Gunicorn, Nginx, Ubuntu VPS

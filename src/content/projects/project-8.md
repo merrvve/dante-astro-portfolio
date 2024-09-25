@@ -12,7 +12,7 @@ seo:
 
 **Project Overview:**
 
-Unilocked.com is a platform that connects job seekers with potential employers, offering a streamlined and interactive experience. I have been part of the frontend development team at the company, utilizing Angular 16 and Angular Material.
+[Unilocked.com](https://unilocked.com) is a platform that connects job seekers with potential employers, offering a streamlined and interactive experience. I have been part of the frontend development team at the company, utilizing Angular 16 and Angular Material.
 
 ## My Role
 
